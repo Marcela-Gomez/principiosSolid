@@ -1,0 +1,35 @@
+# Ignore the vendor directory
+/vendor/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore PHPStorm project files
+*.iml
+*.iws
+.idea/
+
+# Ignore Mac OS X files
+.DS_Store
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore PHP CS Fixer cache
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Ignore PHPStan cache
+.phpstan/cache
+
+# Ignore transaction log file
+transaction.txt

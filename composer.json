@@ -1,0 +1,20 @@
+{
+    "name": "ferag/tests-php",
+    "description": "Project testing",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ferag\\TestsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Aguilar",
+            "email": "feraguilar6985@gmail.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^16.3",
+        "respect/validation": "^2.3"
+    }
+}
